@@ -9,5 +9,7 @@ void setup() {
 
 void draw() (
   fill(255);
-  ellipse(width/2, height/2, diametre, diametre);
+  //ellipse(width/2, height/2, diametre, diametre);
+  rectMode(CENTER);
+  rect(width/2, height/2, diametre, diametre);
 }
